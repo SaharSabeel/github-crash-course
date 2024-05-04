@@ -9,3 +9,6 @@ function me(){
     console.log('this is my js')
 }
 me()
+const arr = [1,2,3,4]
+const newarr = arr.map((val)=>val+2)
+console.log(newarr)
